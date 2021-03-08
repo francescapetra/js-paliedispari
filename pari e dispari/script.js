@@ -25,11 +25,15 @@ var risultatoFinale = pariDispari(somma);
 function pariDispari (granTotale){
   console.log(granTotale);
   if (granTotale  %2 == 0) {
-    evenEodd = "la somma è pari";
+    evenEodd = "pari";
   }else {
-    evenEodd = "la somma è dispari";
+    evenEodd = "dispari";
   }
    return evenEodd;
 }
 console.log(risultatoFinale);
 // Dichiariamo chi ha vinto.
+if (risultatoFinale == utentePariDispari) {
+console.log ( "hai vinto");
+}else
+console.log("hai perso");
