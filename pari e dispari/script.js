@@ -1,6 +1,16 @@
 // L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
-var utenteNumero = parseInt(prompt("inserisci un numero da 1 a 5"));
+
+do {
+  var utenteNumero = parseInt(prompt("inserisci un numero da 1 a 5"));
+
+} while ((isNaN(utenteNumero))|| (utenteNumero > 5) || (utenteNumero < 1));
+
+do {
+
 var utentePariDispari = prompt("inserisci pari o dispari");
+
+} while (utentePariDispari != "pari" && utentePariDispari != "dispari");
+
 console.log(utenteNumero, utentePariDispari);
 
 // Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
