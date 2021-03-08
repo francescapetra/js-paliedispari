@@ -13,6 +13,23 @@ console.log(nRandom);
 
 // Sommiamo i due numeri
 
+// function risultato (totale){
+// return somma;
+// }
+var somma = utenteNumero + nRandom;
+// console.log(somma);
+var  evenEodd;
+var risultatoFinale = pariDispari(somma);
 
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+function pariDispari (granTotale){
+  console.log(granTotale);
+  if (granTotale  %2 == 0) {
+    evenEodd = "la somma è pari";
+  }else {
+    evenEodd = "la somma è dispari";
+  }
+   return evenEodd;
+}
+console.log(risultatoFinale);
 // Dichiariamo chi ha vinto.
