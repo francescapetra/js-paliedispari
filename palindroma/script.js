@@ -7,7 +7,6 @@ var risultato = "";
 // richiamo la funzione e le passo il prompt come argomento
 var richiamo = palindromo(inserireParola);
 
-
 // parola è l' argomento cioè uguale a prompt
 function palindromo (parola){
   // faccio un ciclo inverso in base alla lunghezza della parola inserita
